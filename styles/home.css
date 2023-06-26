@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Noto+Sans:wght@900&display=swap');
 
 body {
     margin: 0%;
@@ -35,4 +35,60 @@ nav {
     font-size: 2rem;
     line-height: 4rem;
     color: #ec5242;
+}
+
+#intro {
+    margin: 0;
+    padding: 22% 5% 17% 5%;
+    background-image: url(../images/mobileShapes.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#hello {
+    color: #ec5242;
+    font-weight: 400;
+    margin: 0 0 2% 0;
+}
+
+#gamecon {
+    margin: 0;
+    line-height: 2rem;
+    font-size: 2.2rem;
+    font-family: 'Noto Sans', sans-serif;
+    color: #ec5242;
+    background-image: url(../images/textBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#eventDetail {
+    background-color: rgb(238, 237, 233);
+    color: #535353;
+    font-size: 0.85rem;
+    border: 0.3rem solid whitesmoke;
+    padding: 3%;
+    margin: 6% 0% 2% 0%;
+}
+
+#eventDetail p {
+    margin: 0;
+    line-height: 1.5rem;
+}
+
+#date {
+    font-family: 'Noto Sans', sans-serif;
+    color: #585858;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+#location {
+    color: #535353;
+    margin: 1% 0%;
+    font-size: 1rem;
+    font-weight: 500;
 }
