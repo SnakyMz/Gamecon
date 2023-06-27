@@ -92,3 +92,67 @@ nav {
     font-size: 1rem;
     font-weight: 500;
 }
+
+#program {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/programBackground.jpg);
+    padding: 3%;
+}
+
+#mainProgram {
+    color: #d3d3d3;
+    font-weight: 500;
+    margin: 5% 0% 4% 0%;
+}
+
+.dash {
+    background-color: #ec5242;
+    width: 10%;
+    height: 0.1rem;
+    margin: 0% 0% 8% 0%;
+}
+
+.programs {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 4%;
+    margin: 1% 0%;
+    background-color: #d3d3d32c;
+    gap: 3%;
+    width: 90%;
+}
+
+.programTitle {
+    color: #ec5242;
+    font-size: 1rem;
+    align-self: center;
+    flex: 1;
+}
+
+.programDetail {
+    color: #d3d3d3;
+    font-size: 0.8rem;
+    align-self: center;
+    margin: 0;
+    flex: 2.5;
+}
+
+.programIcon {
+    max-width: 10%;
+    max-height: 10%;
+    flex: 1;
+    align-self: center;
+}
+
+#bookBtn {
+    background-color: #ec5242;
+    color: #d3d3d3;
+    font-size: 1.2rem;
+    margin: 8% 0%;
+    padding: 6% 15%;
+    border: 0.2rem solid #ec5242;
+}
