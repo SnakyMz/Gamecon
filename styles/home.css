@@ -225,3 +225,18 @@ nav {
 #sponserTitle {
     color: #d3d3d3;
 }
+
+#sponserList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 5%;
+    padding-bottom: 10%;
+}
+
+.sponsers {
+    width: 30%;
+    margin-bottom: 5%;
+}
