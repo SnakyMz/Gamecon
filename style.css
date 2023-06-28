@@ -307,7 +307,7 @@ footer {
     align-items: center;
 }
 
-#logoTitle {
+.titles {
     font-size: 1.4rem;
     text-align: center;
     margin: 10% 0% 3% 0%;
@@ -343,4 +343,57 @@ footer {
     height: 0.1rem;
     width: 100%;
     background-color: #d3d3d3;
+}
+
+#history {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+#historyDesc {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 8%;
+}
+
+.oldGamecon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 2% 0%;
+    background-color: #ec5242;
+    background-blend-mode: overlay;
+}
+
+#g22 {
+    background-image: url(./images/gamecon2022.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#g21 {
+    background-image: url(./images/gamecon2021.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.previousYear {
+    text-align: center;
+    color: #d3d3d3;
+    font-size: 2.2rem;
+    margin: 20% 0%;
+}
+
+.previousDetail {
+    color: #d3d3d3;
+    font-size: 1rem;
+    margin: 0%;
+    padding: 0%;
 }
