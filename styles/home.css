@@ -240,3 +240,15 @@ nav {
     width: 30%;
     margin-bottom: 5%;
 }
+
+footer {
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#copyright {
+    font-size: 0.6rem;
+    line-height: 1rem;
+}
