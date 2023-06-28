@@ -224,7 +224,7 @@ nav {
 }
 
 #sponserTitle {
-    color: #d3d3d3;
+    color: white;
 }
 
 #sponserList {
@@ -234,7 +234,7 @@ nav {
     flex-wrap: wrap;
     width: 80%;
     gap: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 4%;
 }
 
 .sponsers {
@@ -243,7 +243,7 @@ nav {
 }
 
 footer {
-    padding: 5% 10%;
+    padding: 3.5% 10%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -251,7 +251,7 @@ footer {
 
 #copyright {
     color: #535353;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     line-height: 1rem;
 }
 
