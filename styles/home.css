@@ -156,3 +156,72 @@ nav {
     padding: 6% 15%;
     border: 0.2rem solid #ec5242;
 }
+
+#guest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.guests {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    margin: 10% 0%;
+}
+
+.guestImg {
+    max-width: 25%;
+    flex: 1;
+    background-image: url(../images/NicePng_checkers-png_8273622.png);
+    background-position-x: left;
+    background-position-y: top;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    padding: 3% 0% 0% 3%;
+}
+
+.guestDetail {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.guestName {
+    margin: 2% 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.guestTitle {
+    margin: 0;
+    font-size: 0.7rem;
+    color: #ec5242;
+    font-style: italic;
+}
+
+.line {
+    margin: 5% 1%;
+    background-color: #d3d3d3;
+    width: 7%;
+    height: 0.15rem;
+}
+
+.guestDesc {
+    margin: 0;
+    font-size: 0.6rem;
+}
+
+#sponser {
+    background-color: #535353;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sponserTitle {
+    color: #d3d3d3;
+}
