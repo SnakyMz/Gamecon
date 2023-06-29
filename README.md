@@ -54,6 +54,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Link to Quick Overview of Gamecon](https://www.loom.com/share/872e08af94604713a29378461311bde7?sid=af86d42b-222f-443a-905a-e6f75cd5ec49)
 - [Live link to Gamecon](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
