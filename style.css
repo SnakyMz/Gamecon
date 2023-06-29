@@ -452,7 +452,7 @@ footer {
         list-style: none;
         display: inline-flex;
         justify-content: space-evenly;
-        gap: 10%;
+        gap: 20%;
         margin-right: 15%;
     }
 
@@ -609,6 +609,8 @@ footer {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
         padding: 0 10%;
+        gap: 5%;
+        margin-bottom: 10%;
     }
 
     .guestName {
