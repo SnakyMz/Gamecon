@@ -19,9 +19,17 @@ nav {
     right: 0;
 }
 
+#topnav {
+    display: none;
+}
+
 #menuOpen {
     width: 2.5rem;
     cursor: pointer;
+}
+
+#gameconHome {
+    display: none;
 }
 
 #menuList {
@@ -37,7 +45,17 @@ nav {
     color: #ec5242;
 }
 
+#deskList {
+    display: none;
+}
+
+#gamefairBtn {
+    display: none;
+}
+
 #intro {
+    background-color: rgba(240, 248, 255, 0.932);
+    background-blend-mode: overlay;
     margin: 0;
     padding: 22% 5% 17% 5%;
     background-image: url(./images/mobileShapes.jpg);
@@ -60,8 +78,8 @@ nav {
     background-image: url(./images/textBackground.jpg);
     background-position: center;
     background-size: cover;
-    background-clip: text;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -99,6 +117,9 @@ nav {
     justify-content: center;
     align-items: center;
     background-image: url(./images/programBackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 3%;
 }
 
@@ -170,7 +191,7 @@ nav {
     display: flex;
     flex-direction: row;
     gap: 3%;
-    margin: 10% 0%;
+    margin-bottom: 10%;
 }
 
 .guestImg {
@@ -253,6 +274,10 @@ footer {
     color: #535353;
     font-size: 0.7rem;
     line-height: 1rem;
+}
+
+#desbr {
+    display: none;
 }
 
 #about {
@@ -396,4 +421,224 @@ footer {
     font-size: 1rem;
     margin: 0%;
     padding: 0%;
+}
+
+@media screen and (min-width: 768px) {
+    #topnav {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        width: 100%;
+        background-color: #272a31;
+        gap: 2%;
+    }
+
+    #topnavList {
+        width: fit-content;
+        margin: 0%;
+        padding: 1%;
+        list-style: none;
+        display: inline-flex;
+        justify-content: space-evenly;
+        gap: 10%;
+        margin-right: 15%;
+    }
+
+    #topnavList li {
+        font-size: 1.2rem;
+        color: #d3d3d3;
+        font-weight: 800;
+    }
+
+    .social {
+        padding: 1% 0;
+        max-height: 2rem;
+        max-width: 10rem;
+    }
+
+    #menuOpen {
+        display: none;
+    }
+
+    #gameconHome {
+        display: block;
+        width: 15rem;
+        height: 7rem;
+        margin-left: 60%;
+    }
+
+    nav {
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0%;
+        width: 80%;
+        margin: 0;
+    }
+
+    #deskList {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 10%;
+        list-style: none;
+    }
+
+    #deskList a {
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    #aBtn {
+        color: #ec5242;
+    }
+
+    .bBtn {
+        color: #272a31;
+    }
+
+    #gamefairBtn {
+        display: block;
+        border: 0.5rem solid #ec5242;
+        background-color: white;
+        color: #ec5242;
+        font-size: 1.3rem;
+        height: 4rem;
+        padding: 1% 20%;
+        font-family: 'Lato', sans-serif;
+        cursor: pointer;
+    }
+
+    #intro {
+        background-image: url(./images/desktopShapes.jpg);
+        padding-top: 10%;
+        padding-left: 15%;
+        padding-right: 30%;
+    }
+
+    #hello {
+        font-size: 4rem;
+    }
+
+    #gamecon {
+        font-size: 5rem;
+        line-height: 6rem;
+    }
+
+    #eventDetail {
+        font-size: 1.2rem;
+        width: 70%;
+    }
+
+    #eventDetail p {
+        line-height: 2rem;
+    }
+
+    #date {
+        font-size: 2.5rem;
+    }
+
+    #location {
+        font-size: 1.5rem;
+    }
+
+    #mainProgram {
+        font-size: 3rem;
+    }
+
+    .dash {
+        width: 5%;
+    }
+
+    #programContainer {
+        display: flex;
+        gap: 1%;
+        width: 80%;
+    }
+
+    .programs {
+        flex-direction: column;
+        width: 15%;
+    }
+
+    .programIcon {
+        max-width: 50%;
+        max-height: 50%;
+    }
+
+    .programTitle {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .programDetail {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #bookBtn {
+        padding: 2%;
+        font-size: 2rem;
+        text-decoration: underline;
+        background-color: unset;
+        border: none;
+        margin: 5% 0%;
+    }
+
+    #guestHead {
+        font-size: 3rem;
+    }
+
+    #guestcontainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        padding: 0 10%;
+    }
+
+    .guestName {
+        font-size: 2rem;
+    }
+
+    .guestTitle {
+        font-size: 1.4rem;
+    }
+
+    .guestDesc {
+        font-size: 1.2rem;
+    }
+
+    #sponserTitle {
+        font-size: 3rem;
+        color: #d3d3d3;
+    }
+
+    .sponsers {
+        width: 15%;
+        margin-bottom: 3%;
+    }
+
+    .sdash {
+        margin-bottom: 3%;
+    }
+
+    #footerHead {
+        font-size: 4rem;
+    }
+
+    #copyright {
+        font-size: 1rem;
+    }
+
+    #mobbr {
+        display: none;
+    }
+
+    #desbr {
+        display: block;
+    }
 }

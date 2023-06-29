@@ -10,14 +10,32 @@
 
 <body>
     <header>
+        <div id="topnav">
+            <img src="./images/pngkey.com-facebook-logo-png-white-1532072.png" alt="Facebook" class="social">
+            <img src="./images/pngkey.com-twitter-logo-png-transparent-111779.png" alt="Twitter" class="social">
+            <ul id="topnavList">
+                <li>English</li>
+                <li>Home</li>
+                <li>Logout</li>
+            </ul>
+        </div>
         <nav>
             <img src="./images/menu.png" alt="Menu button" id="menuOpen">
+            <a href="./index.html"><img src="./images/Gamecon2023.png" alt="Gamecon 2023" id="gameconHome"></a>
             <ul id="menuList">
                 <li><a href="./about.html">About</a></li>
                 <li><a href="#program">Program</a></li>
                 <li><a href="#bookBtn">Book</a></li>
                 <li><a href="#guest">Guests</a></li>
                 <li><a href="#sponser">Sponsers</a></li>
+            </ul>
+            <ul id="deskList">
+                <li><a href="./about.html" id="aBtn">About</a></li>
+                <li><a href="#program" class="bBtn">Program</a></li>
+                <li><a href="#bookBtn" class="bBtn">Book</a></li>
+                <li><a href="#guest" class="bBtn">Guests</a></li>
+                <li><a href="#sponser" class="bBtn">Sponsers</a></li>
+                <li><button type="button" id="gamefairBtn">Campaign</button></li>
             </ul>
         </nav>
     </header>
@@ -37,38 +55,42 @@
         <section id="program">
             <h2 id="mainProgram">Main Program</h2>
             <i class="dash"></i>
-            <div class="programs">
-                <img src="./images/video-marketing-256.png" alt="TV" class="programIcon">
-                <h3 class="programTitle">Premier</h3>
-                <p class="programDetail">Be the first to witness global premier of new titles and also, gain a chance to
-                    be the first to play it</p>
-            </div>
-            <div class="programs">
-                <img src="./images/cart-59-256.png" alt="Shopping Bag" class="programIcon">
-                <h3 class="programTitle">Exclusives</h3>
-                <p class="programDetail">Buy exclusive merchandise of your favorite games</p>
-            </div>
-            <div class="programs">
-                <img src="./images/torah-256.png" alt="Graduation Hat" class="programIcon">
-                <h3 class="programTitle">Campus</h3>
-                <p class="programDetail">Explore numerous career and training opportunities in games industry</p>
-            </div>
-            <div class="programs">
-                <img src="./images/skull-11-256.png" alt="Skull" class="programIcon">
-                <h3 class="programTitle">Cosplayers</h3>
-                <p class="programDetail">Explore a varied program with international cosplayers, artists, show acts and
-                    much more...</p>
-            </div>
-            <div class="programs">
-                <img src="./images/joystick-2-256.png" alt="Controller" class="programIcon">
-                <h3 class="programTitle">Booking</h3>
-                <p class="programDetail">Book your tickets online now</p>
+            <div id="programContainer">
+                <div class="programs">
+                    <img src="./images/video-marketing-256.png" alt="TV" class="programIcon">
+                    <h3 class="programTitle">Premier</h3>
+                    <p class="programDetail">Be the first to witness global premier of new titles and also, gain a
+                        chance to
+                        be the first to play it</p>
+                </div>
+                <div class="programs">
+                    <img src="./images/cart-59-256.png" alt="Shopping Bag" class="programIcon">
+                    <h3 class="programTitle">Exclusives</h3>
+                    <p class="programDetail">Buy exclusive merchandise of your favorite games</p>
+                </div>
+                <div class="programs">
+                    <img src="./images/torah-256.png" alt="Graduation Hat" class="programIcon">
+                    <h3 class="programTitle">Campus</h3>
+                    <p class="programDetail">Explore numerous career and training opportunities in games industry</p>
+                </div>
+                <div class="programs">
+                    <img src="./images/skull-11-256.png" alt="Skull" class="programIcon">
+                    <h3 class="programTitle">Cosplayers</h3>
+                    <p class="programDetail">Explore a varied program with international cosplayers, artists, show acts
+                        and
+                        much more...</p>
+                </div>
+                <div class="programs">
+                    <img src="./images/joystick-2-256.png" alt="Controller" class="programIcon">
+                    <h3 class="programTitle">Booking</h3>
+                    <p class="programDetail">Book your tickets online now</p>
+                </div>
             </div>
             <button type="button" id="bookBtn">Book Your Spot Now</button>
         </section>
 
         <section id="guest">
-            <h2>Special Guests</h2>
+            <h2 id="guestHead">Special Guests</h2>
             <i class="dash"></i>
             <div id="guestcontainer">
 
@@ -77,7 +99,7 @@
 
         <section id="sponser">
             <h2 id="sponserTitle">Sponsers</h2>
-            <i class="dash"></i>
+            <i class="dash sdash"></i>
             <div id="sponserList">
                 <img src="./images/pngkey.com-cigna-logo-png-8644440.png" alt="Cigna" class="sponsers">
                 <img src="./images/pngkey.com-games-png-1127920.png" alt="Qubo2" class="sponsers">
@@ -89,8 +111,9 @@
     </main>
 
     <footer>
-        <h2>&COPY; Gamecon</h2>
-        <p id="copyright">2023 Gamecon<br>All Rights Reserved</p>
+        <h2 id="footerHead">&COPY; Gamecon</h2>
+        <p id="copyright">2023 Gamecon. <br id="mobbr">All Rights Reserved<span id="desbr"><br>Lorem ipsum dolor sit
+                amet consectetur adipisicing elit.</span></p>
     </footer>
 
     <script src="./script.js"></script>
