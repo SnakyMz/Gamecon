@@ -84,7 +84,7 @@ nav {
 }
 
 #eventDetail {
-    background-color: rgb(238, 237, 233);
+    background-color: white;
     color: #535353;
     font-size: 0.85rem;
     border: 0.3rem solid whitesmoke;
@@ -276,7 +276,7 @@ footer {
     line-height: 1rem;
 }
 
-#desbr {
+.desbr {
     display: none;
 }
 
@@ -284,6 +284,8 @@ footer {
     margin: 0;
     padding: 22% 5% 10% 5%;
     background-image: url(./images/aboutShapes.jpg);
+    background-color: rgba(255, 255, 255, 0.92);
+    background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -342,7 +344,7 @@ footer {
     background-color: #ec5242;
     width: 5%;
     height: 0.1rem;
-    margin: 0% 0% 0% 0%;
+    margin: 0%;
 }
 
 #logoDesc {
@@ -384,6 +386,14 @@ footer {
     margin-bottom: 8%;
 }
 
+#oldConContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .oldGamecon {
     display: flex;
     flex-direction: column;
@@ -393,6 +403,7 @@ footer {
     margin: 2% 0%;
     background-color: #ec5242;
     background-blend-mode: overlay;
+    cursor: pointer;
 }
 
 #g22 {
@@ -517,7 +528,7 @@ footer {
         background-image: url(./images/desktopShapes.jpg);
         padding-top: 10%;
         padding-left: 15%;
-        padding-right: 30%;
+        padding-right: 25%;
     }
 
     #hello {
@@ -634,11 +645,71 @@ footer {
         font-size: 1rem;
     }
 
-    #mobbr {
+    .mobbr {
         display: none;
     }
 
-    #desbr {
+    .desbr {
         display: block;
+    }
+
+    #about {
+        background-image: url(./images/desktopShapes.jpg);
+        padding-top: 10%;
+    }
+
+    .aboutDesk {
+        display: none;
+    }
+
+    #aboutGamecon {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    #aboutDetail {
+        background-color: white;
+        font-size: 1.2rem;
+        width: 60%;
+    }
+
+    #contact {
+        font-size: 1.3rem;
+        width: 60%;
+    }
+
+    .titles {
+        font-size: 2rem;
+        margin-top: 5%;
+        margin-bottom: 1.5%;
+    }
+
+    .aboutdash {
+        width: 3%;
+    }
+
+    #logoDesc {
+        font-size: 1.1rem;
+        width: 55%;
+    }
+
+    #logoBox {
+        max-width: 40%;
+        margin-bottom: 5%;
+    }
+
+    #historyDesc {
+        font-size: 1.1rem;
+        margin-bottom: 3%;
+    }
+
+    #oldConContainer {
+        flex-direction: row;
+        width: 70%;
+        gap: 3%;
+    }
+
+    .guestDash {
+        margin-bottom: 3%;
     }
 }
