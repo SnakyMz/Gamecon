@@ -423,13 +423,13 @@ footer {
   text-align: center;
   color: #d3d3d3;
   font-size: 2.2rem;
-  margin: 20% 0%;
+  margin: 20% 0% 3% 0%;
 }
 
 .previousDetail {
   color: #d3d3d3;
   font-size: 1rem;
-  margin: 0%;
+  margin: 0% 0% 20% 0%;
   padding: 0%;
 }
 
@@ -638,11 +638,11 @@ footer {
     margin-bottom: 3%;
   }
 
-  #footerHead {
+  .footerHead {
     font-size: 4rem;
   }
 
-  #copyright {
+  .copyright {
     font-size: 1rem;
   }
 
@@ -712,5 +712,17 @@ footer {
 
   .guestDash {
     margin-bottom: 3%;
+  }
+
+  #aboutFooter {
+    background-color: #272a31;
+  }
+
+  #aboutCopy {
+    color: white;
+  }
+
+  .copyHead {
+    color: white;
   }
 }
